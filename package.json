@@ -86,7 +86,7 @@
   },
   "scripts": {
     "test": "mocha src/test/app.test.js",
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
