@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 
 app.get('/cards', function(req, res) {
-  res.send('cards mock');
+  res.setHeader('Content-Type', 'application/json');
+   res.json({key:"value"});
 });
 
 app.listen(8080, function() {
