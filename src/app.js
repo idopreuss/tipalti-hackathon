@@ -11,7 +11,7 @@ app.get('/cards', function(req, res) {
 
 app.get('/', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
-   res.json({key:"value"});
+   res.send("Hello from Cards");
 });
 
 app.listen(process.env.PORT || 3000, function() {
