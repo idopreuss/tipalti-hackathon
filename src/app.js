@@ -7,6 +7,6 @@ app.get('/cards', function(req, res) {
 });
 
 app.listen(4000, function() {
-  console.log('Web service listening on port 8080');
+  console.log('Web service listening on port 4000');
 });
 
