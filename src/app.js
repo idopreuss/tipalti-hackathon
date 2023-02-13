@@ -1,9 +1,11 @@
 const express = require('express');
 const app = express();
+const card = require('./cards')
+
 
 app.get('/cards', function(req, res) {
   res.setHeader('Content-Type', 'application/json');
-   res.json({key:"value"});
+   res.json({card:card});
 });
 
 
