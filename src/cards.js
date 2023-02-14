@@ -12,7 +12,6 @@
         "employeeName": "Automation Team",
         "exchangeRate": 1,
         "expMonth": 11,
-        "expYear": 2025,
         "externalId": "4f073bcd-f383-48a9-a589-729d2b703344",
         "last4": "8255",
         "lines": [
